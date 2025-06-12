@@ -59,9 +59,9 @@ class ProblemTest {
 
         Problem.Result result = problem.solve(capacity);
         assertAll(
-                () -> assertEquals(3, result.packedItems.size(), "Powinny być zapakowane 2 przedmioty"),
-                () -> assertEquals(19, result.totalValue, "Sumaryczna wartość powinna wynosić 18"),
-                () -> assertEquals(14, result.totalWeight, "Sumaryczna waga powinna wynosić 10")
+                () -> assertEquals(3, result.packedItems.size(), "Powinny być zapakowane 3 przedmioty"),
+                () -> assertEquals(19, result.totalValue, "Sumaryczna wartość powinna wynosić 19"),
+                () -> assertEquals(14, result.totalWeight, "Sumaryczna waga powinna wynosić 14")
         );
     }
 }
