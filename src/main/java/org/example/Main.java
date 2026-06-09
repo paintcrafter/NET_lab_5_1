@@ -18,7 +18,7 @@ public class Main {
         System.out.println("Podaj pojemnosc:");
         int capacity = scanner.nextInt();
 
-        Problem.Result result = problem.solve(capacity);
+        Result result = problem.solve(capacity);
         System.out.println(result);
 
     }
